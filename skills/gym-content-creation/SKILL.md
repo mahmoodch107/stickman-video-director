@@ -6,7 +6,7 @@
 
 - Use Mode A Filmed for content a real person performs on camera in a gym or at home.
 
-- Use Mode B Faceless for stickman or AI generated explainers with voiceover and no person on camera.
+- Use Mode B Faceless for AI generated explainers with the locked real human Coach character from `references/gym-character.md`, with voiceover and no filming needed. Use a stickman style only when the user explicitly asks for one.
 
 - Ask one short question when the mode is ambiguous and honor choices the user already supplied.
 
@@ -50,7 +50,7 @@
 
 - Turn the approved Phase A into standalone per-clip video prompts, one per clip, each repeatable without reading the others.
 
-- Repeat the full character anchor, style description, and frozen voice block verbatim in every prompt, following the `directing_stickman_videos` skill when a stickman style is selected.
+- Read `references/gym-character.md` before planning any Mode B video and use its locked real human Coach character, its reference images in `assets/`, and its frozen voice block by default. Repeat the full character anchor, style description, and frozen voice block verbatim in every prompt, keep the character photorealistic and never cartoon or stick figure, and follow the `directing_stickman_videos` skill only when a stickman style is explicitly selected.
 
 - Keep generated clips free of visible words and put all text in a post-production overlay note.
 
