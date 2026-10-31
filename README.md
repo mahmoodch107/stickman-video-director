@@ -15,6 +15,11 @@ Start with a topic, an article, or a script. Automatically orchestrate visuals, 
 
 Continually updated visual styles for **science explainers, dark psychology, tech parables, viral lore, and storytelling channels.**
 
+## 🏋️ Gym Content Creation Skill
+
+This fork adds a gym content creation skill under `skills/gym-content-creation`, with a 2.5D sketch Coach and Student for faceless gym explainers. See [skills/gym-content-creation/README.md](skills/gym-content-creation/README.md) for the full skill.
+
+https://github.com/user-attachments/assets/d533c70c-3a08-4ad8-933a-2081990dcebc
 </div>
 
 <table width="100%">
