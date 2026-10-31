@@ -1,16 +1,16 @@
-# Gym Character — Locked
+# Gym Character — Locked (Real Human)
 
 ## Character anchor (repeat verbatim in every Mode B prompt)
 
-- A minimalist 2D animated stick figure gym coach with a white round head, simple friendly face with dot eyes and a confident smile, black stick limbs, wearing a bright red headband, a black sleeveless tank top, dark navy shorts, black wristbands and bright red trainers. Simple black lines, vibrant colors, smooth 2D animation style.
+- A photorealistic adult man in his early 30s, an athletic muscular gym coach with short black hair and a short trimmed beard, a friendly confident expression, wearing a bright red headband, a black sleeveless tank top, dark navy shorts, black wristbands and bright red trainers. Real human proportions, natural skin texture, realistic gym lighting, no cartoon or illustration style.
 
 ## Identity
 
 - Name: Coach (the gym channel coach — Mahmood can rename him at any time).
 
-- Role: the one recurring character in every gym video. He demonstrates, points at mistakes, and celebrates the fix.
+- Role: the one recurring character in every AI generated gym video. He demonstrates each exercise, shows the mistake, then shows and celebrates the fix.
 
-- Personality: encouraging older-brother coach. Confident, clear, never shouting, never shaming the viewer.
+- Personality: encouraging, clear, professional coach. Confident and warm, never shouting, never shaming the viewer.
 
 - Only one character by default. Add a second beginner character only when Mahmood asks for one for a specific video.
 
@@ -20,18 +20,22 @@
 
 ## Design rules
 
-- Keep the red headband, black tank top, navy shorts, wristbands and red trainers in every appearance, in the gym and outside it.
+- Keep the same face, hair, beard, build and outfit in every appearance: red headband, black tank top, navy shorts, black wristbands and red trainers.
 
-- Keep proportions, head size and line weight identical across clips. A moving limb replaces its previous pose, never add extra arms or legs.
+- Keep him a real human in every generation. Never render him as a cartoon, stick figure, illustration or 3D avatar, and add that ban to every prompt's negative instructions.
 
-- Show form with the character's whole body visible. For a form demo use a side view, for a mistake reveal use a front view, and for the fix celebration use a front view with a thumbs up.
+- Show form with his whole body visible. For a form demo use a side view, for a mistake reveal use a front view, and for the fix celebration use a front view with a thumbs up.
 
-- Keep accent colours limited to the outfit above plus ordinary gym equipment colours. No costume changes, no logos, no visible words on clothing.
+- No costume changes, no logos and no visible words on clothing.
 
 ## Reference images
 
-- `assets/gym-character-sheet.png` — front, side and back views on a plain white background.
+- `assets/gym-character-sheet.png` — front, side and back views of the same man on a plain light background, full body, same outfit.
 
-- `assets/gym-character-action.png` — the same character in a gym: holding a dumbbell, demonstrating a squat, and giving a thumbs up.
+- `assets/gym-character-action.png` — the same man in a real gym: holding a dumbbell, demonstrating a squat from the side, and giving a thumbs up.
 
-- Use these images as the visual reference for every Mode B generation, alongside this written anchor.
+- Use these images as the visual identity reference for every Mode B generation, alongside this written anchor.
+
+## History
+
+- This real human version replaced the cartoon stickman Coach on 2026-10-31 at Mahmood's request. The cartoon version is kept as a local backup only and is not part of the skill.
