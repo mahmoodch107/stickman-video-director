@@ -18,6 +18,6 @@ Full character anchors, the muscle-glow rule and the frozen voice blocks: `refer
 
 ## Sample video
 
-SAMPLE_VIDEO_EMBED
+https://github.com/user-attachments/assets/d533c70c-3a08-4ad8-933a-2081990dcebc
 
 The 10-second duo test animation: the Student does slow dumbbell curls while his biceps glow red, the Coach points at the working muscle and finishes with a thumbs up. The file also lives at `examples/duo-test-animation.mp4`.
